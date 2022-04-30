@@ -11,11 +11,11 @@ module.exports = {
 
     nodes: [
     {
-      host: process.env.NODE_HOST || "surbhi.arjunop363.repl.co",
+      host: process.env.NODE_HOST || "lava.link,
       identifer: process.env.NODE_ID || "local",
       port: parseInt(process.env.NODE_PORT || "443"),
-      password: process.env.NODE_PASSWORD || "surbhi",
-      secure: parseBoolean(process.env.NODE_SECURE || "true"),
+      password: process.env.NODE_PASSWORD || "ihatemylyf",
+      secure: parseBoolean(process.env.NODE_SECURE || "false"),
 
     }
   ],
